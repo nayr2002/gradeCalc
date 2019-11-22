@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background="img/iStock_28423686_MEDIUM.jpg">
+<div id="text1">
+    <h1>THE BEST GRADE CALCULATOR </h1>
+    <h1>IN THE HISTORY OF THE UNIVERSE!</h1>
+    <p>Please seperate each grade with a comma</p>
+    <p>(ex. 80,90,70,60)</p>
+<table id="input1">
+    <tr id="head1">
+        <th>Category</th>
+        <th>Grades</th>
+        <th>Weight%</th>
+    </tr>
+    <tr id="hw">
+        <th>Homework</th>
+        <td><input type="text" id="gradeh"></td>
+        <td><input type="text" id="weighth"></td>
+    </tr>
+    <tr id="quiz">
+        <th>Quizzes</th>
+        <td><input type="text" id="gradeq"></td>
+        <td><input type="text" id="weightq"></td>
+    </tr>
+    <tr id="test">
+        <th>Tests</th>
+        <td><input type="text" id="gradet"></td>
+        <td><input type="text" id="weightt"></td>
+    </tr>
+</table>
+    <br>
+    <button id="c" class="button" onClick="calculateCurrentGrade()">Find your current grade!</button>
+    <br>
+    <br>
+</div>
+<br>
+<div id="text2">
+    <div id="current"></div>
+    <br>
+    <table id="input2">
+        <tr id="head2">
+            <th>Desired Grade</th>
+            <th>Weight of Final</th>
+        </tr>
+        <tr id=final>
+            <td><input type="text" id="gradew"></td>
+            <td><input type="text" id="weightf"></td>
+        </tr>
+    </table>
+    <br>
+    <button id="f" class="button" onClick="calculateFinalExamGradeNeeded()">Find what you need on the final!</button>
+</div>
+<br>
+<div id="text3">
+    <div id="needed"></div>
+    <button id="r" class="button" onClick="reset()">Reset</button>
+</div>
+</body>
+</html>

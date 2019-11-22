@@ -1,0 +1,74 @@
+#text1, #text2, #text3 {
+    text-align:center;
+    position: relative;
+    margin: auto;
+    background-color: #66b9bf;
+    border: 10px solid #07889b;
+    width: 60%;
+    padding: 2%;
+}
+
+#text2, #text3 {
+    display: none;
+}
+
+h1, h2, #current, #needed {
+    font-family: "Tw Cen MT";
+    font-size: 50px;
+    color: #e37222;
+    font-weight: bold;
+    text-shadow: 1px 1px white, 1px -1px white, -1px 1px white, -1px -1px white;
+}
+
+p {
+    font-family: "Tw Cen MT";
+    font-size: 30px;
+    color: white;
+    line-height: 5px;
+}
+
+#input1, #input2, tr, td, th {
+    margin: auto;
+    border: 2px solid #e37222;
+    border-collapse: collapse;
+    padding: 10px;
+    width: 70%;
+}
+
+#head1, #head2 {
+   background-color: #eeaa7b;
+    font-size: 25px;
+    font-family: "Tw Cen MT";
+    color: white;
+    text-shadow: 1px 1px #e37222, 1px -1px #e37222, -1px 1px #e37222, -1px -1px #e37222;
+}
+
+#hw, #quiz, #test, #final {
+    font-size: 20px;
+    font-family: "Tw Cen MT";
+    background-color: white;
+    color: #e37222;
+}
+
+input {
+    border: transparent;
+    font-family: "Tw Cen MT";
+    font-size: 20px;
+    background-color: white;
+    color: #e37222;
+    text-align: center;
+}
+
+#c, #f, #r {
+    border: 5px solid white;
+    background-color: #e37222;
+    font-family: "Tw Cen MT";
+    font-size: 30px;
+    font-weight:bold;
+    color: white;
+}
+
+#c:hover, #f:hover, #r:hover{
+    text-shadow: 3px 3px darkred;
+    background-color: #e37000;
+}
